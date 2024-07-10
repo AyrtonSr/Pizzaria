@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -90,14 +91,14 @@
 </head>
 <body>
 <header>
-    <a href="index.html"><img src="imagens/demo1-0637570172.svg" alt="Logo"></a>
-    <a href="#" class="login">
+    <a href="index.jsp"><img src="imagens/demo1-0637570172.svg" alt="Logo"></a>
+    <a href="login.jsp" class="login">
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAArUlEQVR4nO2UQQrCMBBF48YbdFN03YP0DL2Gnqul0AvpBURFu3TRJ4MjhGhTpeNG8uBDOknnQRLiXMICYA20QK/pgMKy+YlXzjJnIWgZp7EQ9BHB9deCi4WgiwhqC0GhBxpyBFazBd5NamTPNbVZ88QowALIve8KuGkqr57L2m8aL4EtsAMOQKaR8ZOwLms38u9U8xLYh88Bj/BBXURlTDAwnyEmMMH9ryDh3nAH3imbjdswFhAAAAAASUVORK5CYII=" alt="Login Icon">
         <p>Login</p>
     </a>
 </header>
 
-<form action="index.html">
+<form action="index.jsp">
     <div class="form-group">
         <label for="inome">Nome:</label>
         <input type="text" id="inome" name="Nome" required>
@@ -127,8 +128,8 @@
         <input type="text" id="icomplemento" name="Complemento">
     </div>
     <div class="form-group">
-        <input type="submit" value="Voltar" formaction="carrinho.html">
-        <input type="submit" value="Confirmar" formaction="agradecimento.html">
+        <input type="submit" value="Voltar" formaction="carrinho.jsp" formnovalidate>
+        <input type="submit" value="Confirmar" formaction="agradecimento.jsp">
     </div>
 </form>
 </body>

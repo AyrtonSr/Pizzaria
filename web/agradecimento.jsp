@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -120,7 +121,7 @@
 </head>
 <body>
 <header>
-    <a href="index.html">
+    <a href="index.jsp">
         <img src="imagens/demo1-0637570172.svg" alt="Logo">
     </a>
 </header>
@@ -165,7 +166,7 @@
             <p>Total: <span>R$ XX,XX</span></p>
         </div>
     </div>
-    <a href="index.html" class="button-voltar">Voltar</a>
+    <a href="index.jsp" class="button-voltar">Voltar</a>
 </div>
 </body>
 </html>

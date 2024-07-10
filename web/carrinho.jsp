@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -166,8 +167,8 @@
 </head>
 <body>
 <header>
-    <a href="index.html"><img src="imagens/demo1-0637570172.svg" alt=""></a>
-    <a href="#" class="login">
+    <a href="index.jsp"><img src="imagens/demo1-0637570172.svg" alt=""></a>
+    <a href="login.jsp" class="login">
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAArUlEQVR4nO2UQQrCMBBF48YbdFN03YP0DL2Gnqul0AvpBURFu3TRJ4MjhGhTpeNG8uBDOknnQRLiXMICYA20QK/pgMKy+YlXzjJnIWgZp7EQ9BHB9deCi4WgiwhqC0GhBxpyBFazBd5NamTPNbVZ88QowALIve8KuGkqr57L2m8aL4EtsAMOQKaR8ZOwLms38u9U8xLYh88Bj/BBXURlTDAwnyEmMMH9ryDh3nAH3imbjdswFhAAAAAASUVORK5CYII=">
         <p>Login</p>
     </a>
@@ -205,7 +206,7 @@
 <div class="total">
     <p>Total</p>
     <p>Valor</p>
-    <form action="confirmação.html">
+    <form action="confirmação.jsp">
         <input type="submit" value="Confirmar">
     </form>
 </div>
